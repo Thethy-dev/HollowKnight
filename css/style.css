@@ -1,0 +1,770 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_part1,
+.main_part2,
+.main_part3,
+.main_part4,
+.main_part5,
+.main_part6,
+.blood {
+    background-color: black;
+    padding: 20px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(195, 190, 190, 1);
+    box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.head_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.bg-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header .logo_cherry img {
+    width: 80px;
+    height: 70px;
+
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+header ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+
+.logo_Hollow_Knight,
+.headd {
+    z-index: 2;
+    position: absolute;
+}
+
+.logo_Hollow_Knight {
+    position absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+     
+}
+
+.headd {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    padding: 40px 45px;
+}
+
+.content-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    margin: auto 0;
+}
+
+.main_part1 .wrapper {
+    max-width: 1650px;
+    height: 1250px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+
+.main_part1 h1 {
+    font-size: 2.85rem;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #E0E0E0;
+}
+
+.main_part1 figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.main_part1 .row-reverse {
+    width: 1271.81px;
+    height: 348.36px;
+    margin: 17px;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+
+.main_part1 .row {
+    width: 1271.81px;
+    height: 348.36px;
+    margin: 17px;
+    border-radius: 10px;
+}
+
+.main_part1 h2 {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.main_part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_part1 p {
+    color: #E0E0E0;
+    font-size: 14px;
+}
+
+.main_part1 li {
+    color: #E0E0E0;
+    margin-bottom: 10px;
+}
+
+.main_part1 .p1 {
+    font-size: 14px;
+    margin: 14px 0;
+    line-height: 1.7;
+}
+
+.main_part1 img {
+    width: 558.36px;
+    height: 314.36px;
+}
+
+.main_part1 h2 {
+    font-size: 33.656px;
+    margin: 0;
+    font-weight: 600;
+    color: #E0E0E0;
+}
+
+.main_part2 .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_part2 .wrapper div {
+    width: 25.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+}
+
+.main_part2 img {
+    max-width: 620px;
+    height: 200px;
+}
+
+.main_part3 .wrapper {
+    max-width: 2200px;
+    margin: 0 auto;
+    padding: 2px;
+    margin-top: 170px;
+}
+
+.main_part3 h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.main_part3 .card1,
+.main_part3 .card2,
+.main_part3 .card3,
+.main_part3 .card4 {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.main_part3 .wrapper_cards>div {
+    width: 250px;
+}
+
+.main_part3 .wrapper_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main_part3 img {
+    width: 280px;
+    height: 260px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.main_part3 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 0;
+    color: #E0E0E0;
+}
+
+.main_part3 p {
+    color: #E0E0E0;
+    font-size: 13.5px;
+    line-height: 1.5;
+    font-weight: 350;
+}
+
+.main_part4 .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+    width: 1500px;
+}
+
+.main_part4 img {
+    width: 640px;
+    height: 360px;
+    justify-self: end;
+    margin-left: 90px;
+}
+
+.main_part4 .par {
+    max-width: 800px;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main_part4 .caption_card1 {
+    max-width: 620px;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 20px 0;
+}
+
+.main_part4 h3 {
+    font-size: 2.0em;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main_part4 .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 35px;
+
+}
+
+.main_part4 .image_card1 {
+    border-radius: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main_part4 .caption_card1 p {
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 10px 0;
+}
+
+.main_part4 button {
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.main_part4 button:hover {
+    background-color: rgba(195, 190, 190, 1);
+    box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
+}
+
+.main_part4 button .button1 {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main_part4 .p1 {
+    line-height: 2.2;
+}
+
+.main_part5 .image_card1,
+.main_part5 .image_card2,
+.main_part5 .image_card3 {
+    max-width: 620px;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_part5 button {
+    padding: 17px 27px;
+    background-color: #fff;
+    box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 15px;
+}
+
+.main_part5 button:hover {
+    background-color: rgba(195, 190, 190, 1);
+    box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
+}
+
+.main_part5 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 10.5px;
+    font-weight: bold;
+}
+
+.main_part5 h3 {
+    color: #E0E0E0;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.main_part5 img {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main_part5 .friends {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.main_part5 .figures {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.main_part5 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.main_part5 .caption_card1,
+.main_part5 .caption_card2,
+.main_part5 .caption_card3 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main_part5 .wrapper {
+    max-width: 1310px;
+    max-height: 371.781px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.main_part5 .card1,
+.main_part5 .card2,
+.main_part5 .card3 {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 30%
+}
+
+.main_part6 {
+    color: #E0E0E0;
+}
+
+.main_part6 .h3_1 {
+    font-size: 34px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin: 0 0;
+}
+
+.main_part6 .caption_reviews h3 {
+    font-size: 34px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin: 0 0;
+}
+
+.main_part6 .caption_reviews p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.main_part6 .caption_reviews li {
+    font-size: 12.362px;
+}
+
+.main_part6 .part1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 17px;
+    height: 401.51px;
+    width: 100%;
+    min-width: 1274.81px;
+
+}
+
+.main_part6 .part1 .text {
+    width: 558.36px;
+    height: 367.52px;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_part6 .caption_reviews {
+    width: 558.36px;
+    height: 301.97px;
+    margin: 0 27.9px;
+}
+
+.main_part6 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 13.56px 54.6px;
+    max-width: 1350px;
+    height: 1010px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main_part6 .part1 img {
+    width: 682.44px;
+    height: 323.33px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main_part6 .part2 {
+    max-width: 1274.81px;
+    height: 260.5px;
+    padding: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.main_part6 .part2 img {
+    width: 558.36px;
+    height: 226.33px;
+}
+
+.main_part6 .caption_only_card h3 {
+    font-size: 20.552px;
+    margin: 0 0 14px;
+    font-weight: 350;
+}
+
+.main_part6 .caption_only_card p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.main_part6 .caption_only_card {
+    width: 558.36px;
+    height: 226.5px;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_part6 button {
+    padding: 16.8px 28.056px;
+    background-color: #fff;
+    box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 15px;
+    width: 192.78px;
+    height: 54.59px
+}
+
+.main_part6 button:hover {
+    background-color: rgba(195, 190, 190, 1);
+    box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
+}
+
+.main_part6 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 650;
+}
+
+.main_part6 .image_blood {
+    width: 1274.81px;
+    height: 162.5px;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_part6 .image_blood img {
+    width: 266.36px;
+    height: 162.5px;
+}
+
+.last_part_cherry {
+    background-color: #ee3344;
+}
+
+.last_part_cherry .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Це вирівнює всі блоки (logo, text, developers) по горизонталі по центру */
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    /* Замість 1349px */
+    margin: 0 auto;
+    /* Центрує сам wrapper на сторінці */
+    height: auto;
+}
+
+.last_part_cherry img {
+    width: 450px;
+    height: 361px;
+    margin: 20px;
+}
+
+.last_part_cherry .the_developers img {
+    width: 198px;
+    height: 198px;
+}
+
+.last_part_cherry .card1_AG,
+.card2_WP,
+.card3_DK {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 350px;
+    width: 320px;
+}
+
+.last_part_cherry .button_team_cherry_site {
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border: none;
+    align-self: center;
+}
+
+.button_team_cherry_site:hover {
+    background-color: #F9D9DA;
+    box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
+    color: #D8424D;
+}
+
+.button_team_cherry_site a {
+    text-decoration: none;
+    color: #ee3344;
+    font-size: 15px;
+}
+
+.team_cherry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about_team_cherry p {
+    max-width: 1010px;
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #E0E0E0;
+    text-align: center;
+    word-spacing: 1px;
+
+}
+
+.last_part_cherry .the_developers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.last_part_cherry p {
+    color: #E0E0E0;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.last_part_cherry h3 {
+    color: #E0E0E0;
+    font-size: 19px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #ee3344 !important;
+    min-height: 50px;
+}
+
+
+footer .wrapper .social_media_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+footer li {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    height: 25px;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #E0E0E0;
+    font-size: 14px;
+    margin-top: 10px;
+}
