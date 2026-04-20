@@ -13,6 +13,11 @@
     padding: 20px;
 }
 
+.slider {
+    background-color: black;
+    padding: 20px;
+}
+
 html,
 body {
     margin: 0;
@@ -22,19 +27,6 @@ body {
 }
 
 
-button {
-    padding: 10px 20px;
-    background-color: #fff;
-    box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
-    transition: 0.5s;
-    letter-spacing: 1px;
-    border: none;
-}
-
-button:hover {
-    background-color: rgba(195, 190, 190, 1);
-    box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
-}
 
 header {
     width: 100%;
@@ -92,7 +84,7 @@ header ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%);
-     
+
 }
 
 .headd {
@@ -463,6 +455,62 @@ header ul {
     justify-content: center;
     flex: 1;
     width: 30%
+}
+
+.slider {
+    position: relative;
+    width: 1905px;
+    margin: auto;
+    overflow: hidden;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.slider img {
+    height: 620px;
+    width: 1150px;
+    
+}
+
+.slides {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.slide {
+    width: 100%;
+    display: none;
+
+}
+
+.slide.active {
+    display: block;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 5px;
+}    
+
+.next {
+    right: 5px;
 }
 
 .main_part6 {
