@@ -80,7 +80,7 @@ header ul {
 }
 
 .logo_Hollow_Knight {
-    position absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%);
@@ -134,7 +134,7 @@ header ul {
 }
 
 .main_part1 .row-reverse {
-    width: 1271.81px;
+    max-width: 1271.81px;
     height: 348.36px;
     margin: 17px;
     border-radius: 10px;
@@ -142,7 +142,7 @@ header ul {
 }
 
 .main_part1 .row {
-    width: 1271.81px;
+    max-width: 1271.81px;
     height: 348.36px;
     margin: 17px;
     border-radius: 10px;
@@ -461,7 +461,7 @@ header ul {
     max-width: 1905px;
     margin: auto;
     overflow: hidden;
-    height: 700px;
+    max-height: 700px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -472,7 +472,7 @@ header ul {
 
 .slider img {
     height: 620px;
-    width: 1150px;
+    max-width: 1150px;
     
 }
 
@@ -483,12 +483,12 @@ header ul {
 
 .slide {
     width: 100%;
-    display: none;
+    opacity: 0;
 
 }
 
 .slide.active {
-    display: block;
+    opacity: 1;
 
 }
 
