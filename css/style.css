@@ -458,38 +458,53 @@ header ul {
 
 .slider {
     position: relative;
+    width: 100%;
     max-width: 1905px;
     margin: auto;
     overflow: hidden;
     max-height: 700px;
+    height: 70vh;
     background-color: black;
     display: flex;
     justify-content: center;
     padding: 80px;
+    min-height: 680px;
     
 
 }
 
 .slider img {
-    height: 620px;
-    max-width: 1150px;
+    min-height: 600px;
+    max-width: 950px;
     
 }
 
 .slides {
     position: relative;
+    width: 100%;
     background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide {
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    max-width: 950px;
+    min-height: 600px;
+    transition: 1s ease-in-out;
     opacity: 0;
+    transform: translateX(24%);
 
 }
 
 .slide.active {
     opacity: 1;
-
+    min-height: 600px;
+    max-width: 950px;
 }
 
 .prev,

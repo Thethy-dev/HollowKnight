@@ -19,3 +19,7 @@ prev.addEventListener("click", () => {
     showSlide(index);
 });
 
+const myTimer = setInterval(() => {
+    index = (index + 1) % slides.length;
+    showSlide(index);
+}, 2000);
