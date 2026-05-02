@@ -277,14 +277,13 @@ header ul {
     align-items: center;
     margin-top: 5px;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
 }
 
 .main_part4 img {
     width: 640px;
     height: 360px;
     justify-self: end;
-    margin-left: 90px;
 }
 
 .main_part4 .par {
@@ -459,7 +458,7 @@ header ul {
 
 .slider {
     position: relative;
-    width: 1905px;
+    max-width: 1905px;
     margin: auto;
     overflow: hidden;
     height: 700px;
@@ -677,13 +676,9 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Це вирівнює всі блоки (logo, text, developers) по горизонталі по центру */
     justify-content: center;
     padding: 40px 20px;
-    max-width: 1200px;
-    /* Замість 1349px */
     margin: 0 auto;
-    /* Центрує сам wrapper на сторінці */
     height: auto;
 }
 
